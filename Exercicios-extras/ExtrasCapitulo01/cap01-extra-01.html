@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio extra 01</title>
+</head>
+<body>
+    <h1>Exercício extra 01</h1>
+    <p id="texto">Dados da pessoa: </p>    
+    <script>
+        var pessoa = new Object();
+        pessoa.nome = 'João Pereira da Silva';
+        pessoa.idade = 'idade:20 anos';
+        pessoa.altura = 'altura:1,80 mt';
+        pessoa.peso = 'peso:80 quilos';
+
+        document.getElementById('texto').innerHTML += pessoa.nome + '-' + pessoa.idade + '-' + pessoa.altura + '-' + pessoa.peso;
+    </script>
+</body>
+</html>
