@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de dados</title>
+</head>
+<body>
+    <h1>Tipo de dados</h1>
+    <p id="teste1"> O valor de a é:</p>
+    <p id="teste2"> O valor de b é:</p>
+    <p id="teste3"> O valor de c é:</p>
+    <p id="teste4"> O valor de d é:</p>
+    <p id="teste5"> O valor de e é:</p>
+    <p id="teste6"> O valor de f é:</p>
+    <p id="teste7"> O valor de g é:</p>
+
+    <script>
+
+        //Definindo as variáveis
+
+        var a; // sem dedinição
+        var b = 1; //tipo inteiro com o valor 1
+        var c = [1,2,3,4,5]; //tipo array ou vetor, com os valores 1,2,3,4,5
+        var d = ['Verde', 'Amarelo','Azul','Branco']; //tipo array ou vetor com valores (Cores)
+        var e = 'JavaScript';//tipo string ou texto, com o valor JavaScript
+        var f = false; //tipo lógico, com o valor false
+        var g = null; // sem definição com o valor nulo
+
+        //Mostrando o conteúdo de cada variável
+
+        document.getElementById('teste1').innerHTML +=a;
+        document.getElementById('teste2').innerHTML +=b;
+        document.getElementById('teste3').innerHTML +=c[2];//segunda posição do vetor
+        document.getElementById('teste4').innerHTML +=d;
+        document.getElementById('teste5').innerHTML +=e;
+        document.getElementById('teste6').innerHTML +=f;
+        document.getElementById('teste7').innerHTML +=g;
+    </script>
+</body>
+</html>
