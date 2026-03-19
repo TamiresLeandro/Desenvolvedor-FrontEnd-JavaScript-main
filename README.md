@@ -17,32 +17,15 @@ Este repositório contém o progresso dos meus estudos baseados no livro **"Dese
 
 Abaixo estão os capítulos do livro e o que foi desenvolvido em cada um:
 
-### 🔹 [Capítulo 01 - Primeiros Passos](./Capitulo01/)
-- Conceitos básicos: Variáveis e tipos de dados.
-- Operadores e expressões.
+### 🔹 [Capítulo 01](./Capitulo01/)
 
-### 🔹 [Capítulo 02 - Estruturas de Controle]()
-- Estruturas de decisão: `if`, `else`, `switch`.
-- Estruturas de repetição: `for`, `while`.
+-Sintaxe JavaCript, variáveis e tipos de dados
 
-### 🔹 [Capítulo 03 - Funções e Objetos]()
-- Criação e chamada de funções.
-- Escopo de variáveis.
-- Introdução à orientação a objetos no JS.
+### 🔹 [Capítulo 02]()
 
-### 🔹 [Capítulo 04 - Manipulação do DOM]()
-- Seleção de elementos HTML.
-- Eventos de clique, teclado e mouse.
-- Alteração dinâmica de conteúdo e classes CSS.
+-Operadores
 
-### 🔹 [Capítulo 05 - jQuery]()
-- Sintaxe e seletores do jQuery.
-- Aplicação de efeitos e animações simplificadas.
-
-### 🏆 [Atividade Prática Final]()
-- Desenvolvimento de banners animados.
-- Criação de galerias com efeito Lightbox.
-- Validação completa de formulários com jQuery.
+### 🏆[Atividade Prática Final]()
 
 ---
 
